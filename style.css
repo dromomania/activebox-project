@@ -45,7 +45,9 @@ h5 {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
-  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  /*24px*/
   font-weight: 900;
   background-color: #FF4343;
   transition: background-color .2s ease;
@@ -79,6 +81,10 @@ h5 {
   width: 134px;
   text-align: center;
   text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.81rem;
+  /*13px*/
+  font-weight: 700;
 }
 
 .navbar__link-active {
@@ -139,7 +145,9 @@ h5 {
 
 .banner__title {
   max-width: 1170px;
-  font-size: 64px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 4rem;
+  /*64px*/
   font-weight: 900;
   color: #fff;
   text-transform: uppercase;
@@ -148,7 +156,9 @@ h5 {
 }
 
 .banner__subtitle {
-  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  /*24px*/
   font-weight: 400;
   color: #fff;
   margin-bottom: 82px;
@@ -161,11 +171,9 @@ h5 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /*gap: 1.9375rem;*/
   margin-top: 130px;
   margin-bottom: 134px;
   row-gap: 99.98px;
-  /*column-gap: 31px;*/
 }
 
 .card {
@@ -180,40 +188,54 @@ h5 {
 
 .card__title {
   text-transform: uppercase;
-  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  /*24px*/
   font-weight: 900;
   color: #2D3033;
 }
 
 .card__subtitle {
-  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.125rem;
+  /*18px*/
   font-weight: 400;
   color: #6C7279;
 }
 
 /*SECTION FEATURES ENDS*/
 /*SECTION WORK STARTS*/
-.wrap {
+.work_wrap {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  height: 670px;
+}
+
+.work__top {
+  display: flex;
+  flex-direction: row;
+}
+
+.work__bottom {
+  display: flex;
+  flex-direction: row;
 }
 
 .work__item {
   height: 340px;
-  aspect-ratio: 1/1;
   width: 25%;
   border: 2px solid #fff;
 }
 
-.work__item:nth-child(1) {
+.work__item-one {
   background-image: url(/images/work-1.jpg);
 }
 
-.work__item:nth-child(2) {
+.work__item-two {
   background-image: url(/images/work-2.png);
 }
 
-.work__item:nth-child(3) {
+.work__item-three {
   background-color: rgba(255, 67, 67, 0.8);
   display: flex;
   flex-direction: column;
@@ -233,30 +255,40 @@ h5 {
 
 .work__title {
   text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  /*24px*/
+  font-weight: 900;
+  color: #fff;
 }
 
 .work__subtitle {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.125rem;
+  /*18px*/
+  font-weight: 400;
   margin-top: 20px;
   text-transform: capitalize;
+  color: #fff;
 }
 
-.work__item:nth-child(4) {
+.work__item-four {
   background-image: url(/images/work-4.png);
 }
 
-.work__item:nth-child(5) {
+.work__item-five {
   background-image: url(/images/work-5.png);
 }
 
-.work__item:nth-child(6) {
+.work__item-six {
   background-image: url(/images/work-6.png);
 }
 
-.work__item:nth-child(7) {
+.work__item-seven {
   background-image: url(/images/work-7.png);
 }
 
-.work__item:nth-child(8) {
+.work__item-eight {
   background-image: url(/images/work-8.png);
 }
 
@@ -274,19 +306,25 @@ h5 {
 }
 
 .column__title {
-  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  /*24px*/
   font-weight: 700;
   margin-top: 30px;
 }
 
 .column__subtitle,
 .column__text {
-  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.125rem;
+  /*18px*/
   font-weight: 400;
 }
 
 .column__subtitle {
+  color: #FF4343;
   margin-top: 5.29px;
+  text-transform: uppercase;
 }
 
 .column__text {
@@ -320,7 +358,6 @@ h5 {
   font-size: 2.25rem;
   /*36px*/
   color: #fff;
-
   width: 470px;
   height: 230px;
   margin: 116px 170px 0 129px;
@@ -330,6 +367,7 @@ h5 {
 
 .row__subtitle {
   margin-left: 130px;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 0.8125rem;
   /*13px*/
@@ -360,13 +398,17 @@ h5 {
 }
 
 .download__title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.875rem;
+  /*30px*/
   font-weight: 500;
-  font-size: 30px;
 }
 
 .download__subtitle {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.125rem;
+  /*18px*/
   font-weight: 700;
-  font-size: 18px;
   margin-top: 5.29px;
 }
 
@@ -391,12 +433,25 @@ h5 {
   text-align: center;
 }
 
+.info__title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.125rem;
+  /*18px*/
+  font-weight: 700;
+  color: #fff;
+}
+
 .info:nth-child(1) .info__title {
   margin-top: -42px;
 }
 
 .info__subtitle {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.125rem;
+  /*18px*/
+  font-weight: 400;
   margin-top: 29px;
+  color: #fff;
 }
 
 .info__media {
@@ -404,10 +459,19 @@ h5 {
   gap: 27px;
 }
 
-.text {
+.footer__bottom-txt {
   width: 33.33%;
   margin: 23.86px auto 12.14px;
   text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.125rem;
+  /*18px*/
+  font-weight: 400;
+  color: #fff;
+}
+
+span {
+  color: #808080;
 }
 
 .footer__upper {
